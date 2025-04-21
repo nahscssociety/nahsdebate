@@ -1,22 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Debate Team - NAHS</title>
-    </head>
-    <body>
-        <header>
-            <nav class="nav-bar">
-                <ul class="nav-menu">
-                    <li class="nav-link"><a href="#hero">Home</a></li>
-                    <li class="nav-link"><a href="#about">About Us</a></li>
-                    <li class="nav-link"><a href="#members">Members</a></li>
-                    <li class="nav-link"><a href="#debate_types">Types of Debate</a></li>
-                    <li class="nav-link"><a href="#our_wins">Our Successes</a></li>
-                    
-                </ul>
-            </nav>
-        </header>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>North Atlanta High School Debate Club</title>
+  <meta name="description" content="Official website of North Atlanta High School Debate Club - Fostering critical thinking and public speaking excellence.">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="https://via.placeholder.com/40" alt="NAHS Logo" class="logo-img">
+        <span>NAHS Debate</span>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#debate-formats" class="nav-link">Debate Formats</a></li>
+        <li><a href="#accomplishments" class="nav-link">Accomplishments</a></li>
+        <li><a href="#members" class="nav-link">Team</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content animate-on-scroll">
+    <h1>Welcome to the NAHS Debate Club</h1>
+      <p class="tagline">Where eloquence meets excellence</p>
+    <div class="btn-group">
+        <a href="#about" class="btn btn-primary">Learn More</a>
+        <a href="#contact" class="btn btn-secondary">Join Us</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>About Our Debate Club</h2>
+        <p class="section-subheading">Developing tomorrow's leaders through the art of debate</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text animate-on-scroll">
+        <p>
+          North Atlanta High School Debate Club is dedicated to cultivating critical thinking, effective communication, and a passion for debate among students.
+            Founded in 2010, our award-winning team has grown to become one of the most respected debate programs in the region.
+        </p>
+        <p>
+            We provide a supportive environment where students can develop confidence, research skills, and logical reasoning while competing in tournaments across the state and nation.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">X+</span>
+              <span class="stat-label">Years of Excellence</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">Y+</span>
+              <span class="stat-label">Active Members</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">Z+</span>
+              <span class="stat-label">Tournament Wins</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image animate-on-scroll">
+          <img src="https://via.placeholder.com/500x350" alt="NAHS Debate Team in action" class="rounded-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Debate Formats Section -->
+  <section id="debate-formats" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Debate Formats</h2>
+        <p class="section-subheading">Explore the different styles of debate we compete in</p>
+      </div>
+      <div class="formats-grid">
+        <div class="format-card animate-on-scroll">
+          <div class="format-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <h3>Policy Debate</h3>
+          <p>
+            A research-intensive format focusing on policy proposals where teams argue for and against implementing specific plans. Develops in-depth research and analytical skills.
+          </p>
+          <ul class="format-skills">
+            <li>Critical analysis</li>
+            <li>Research skills</li>
+            <li>Speaking at speed</li>
+          </ul>
+        </div>
+        <div class="format-card animate-on-scroll">
+          <div class="format-icon">
+            <i class="fas fa-comment-dots"></i>
+          </div>
+          <h3>Lincoln-Douglas Debate</h3>
+          <p>
+            One-on-one debates focusing on logic, ethical values, and philosophy. Named after the famous debates between Abraham Lincoln and Stephen Douglas.
+          </p>
+          <ul class="format-skills">
+            <li>Moral reasoning</li>
+            <li>Philosophical frameworks</li>
+            <li>Persuasive speaking</li>
+          </ul>
+        </div>
+        <div class="format-card animate-on-scroll">
+          <div class="format-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Public Forum Debate</h3>
+          <p>
+            Team debate format focusing on current events and public policy issues. Designed to be accessible and appeal to a wide audience.
+          </p>
+          <ul class="format-skills">
+            <li>Clarity and accessibility</li>
+            <li>Current events knowledge</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+        <div class="format-card animate-on-scroll">
+          <div class="format-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>World Schools Debate</h3>
+          <p>
+            Combines prepared topics with impromptu debates, emphasizing rhetorical skills and teamwork with elements of both policy and values debate.
+          </p>
+          <ul class="format-skills">
+            <li>International perspective</li>
+            <li>Impromptu speaking</li>
+            <li>Team strategy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accomplishments Section -->
+  <section id="accomplishments" class="section-padding">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Our Accomplishments</h2>
+        <p class="section-subheading">A tradition of excellence and achievement</p>
+      </div>
+      <div class="timeline animate-on-scroll">
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>State Champions</h3>
+            <p>First place in Georgia State Debate Tournament - Policy division</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>National Semifinalists</h3>
+            <p>Top 4 finish at the National Speech & Debate Tournament</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>Regional Champions</h3>
+            <p>Swept all divisions at the Southeast Regional Tournament</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>Speaker Awards</h3>
+            <p>Three team members ranked in Top 10 National Speakers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Members Section -->
+  <section id="members" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Meet Our Team</h2>
+        <p class="section-subheading">The voices and minds behind our success</p>
+      </div>
+      <div class="members-grid">
+        <div class="member animate-on-scroll">
+          <div class="member-image">
+            <img src="https://via.placeholder.com/300" alt="Alex Johnson" />
+          </div>
+          <div class="member-info">
+            <h3>John Doe</h3>
+            <p class="member-role">President</p>
+            <p class="member-bio">Senior with 4 years of debate experience. Specializes in Policy debate and has won multiple state-level awards.</p>
+            <div class="member-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member animate-on-scroll">
+          <div class="member-image">
+            <img src="https://via.placeholder.com/300" alt="Samantha Lee" />
+          </div>
+          <div class="member-info">
+            <h3>Dohn Joe</h3>
+            <p class="member-role">Vice President</p>
+            <p class="member-bio">Junior excelling in Lincoln-Douglas debate. National qualifier and recognized for outstanding speaker points.</p>
+            <div class="member-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member animate-on-scroll">
+          <div class="member-image">
+            <img src="https://via.placeholder.com/300" alt="Michael Chen" />
+          </div>
+          <div class="member-info">
+            <h3>Joe Dohn</h3>
+            <p class="member-role">Debate Captain</p>
+            <p class="member-bio">Senior with expertise in Public Forum. Mentors new members and leads tournament preparation sessions.</p>
+            <div class="member-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member animate-on-scroll">
+          <div class="member-image">
+            <img src="https://via.placeholder.com/300" alt="Emily Davis" />
+          </div>
+          <div class="member-info">
+            <h3>Doe John</h3>
+            <p class="member-role">Research Lead</p>
+            <p class="member-bio">Junior who coordinates research efforts for the team. Specializes in evidence collection and analysis.</p>
+            <div class="member-social">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="cta-box animate-on-scroll">
+        <h3>Want to join our team?</h3>
+        <p>We're always looking for passionate new members to join our debate family!</p>
+        <a href="#contact" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="section-padding">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Upcoming Events</h2>
+        <p class="section-subheading">Debates, workshops and competitions</p>
+      </div>
+      <div class="events-list">
+        <div class="event-card animate-on-scroll">
+          <div class="event-date">
+            <span class="month">OCT</span>
+            <span class="day">15</span>
+          </div>
+          <div class="event-details">
+            <h3>Fall Invitational Tournament</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> North Atlanta High School</p>
+            <p class="event-time"><i class="far fa-clock"></i> 9:00 AM - 5:00 PM</p>
+            <p class="event-description">Annual tournament hosting schools from across the state with competitions in all debate formats.</p>
+            <a href="#" class="event-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="event-card animate-on-scroll">
+          <div class="event-date">
+            <span class="month">NOV</span>
+            <span class="day">05</span>
+          </div>
+          <div class="event-details">
+            <h3>Beginner Workshop Series</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Room 203</p>
+            <p class="event-time"><i class="far fa-clock"></i> 3:30 PM - 5:30 PM</p>
+            <p class="event-description">Workshop for new debaters covering fundamentals of argumentation and public speaking.</p>
+            <a href="#" class="event-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="event-card animate-on-scroll">
+          <div class="event-date">
+            <span class="month">DEC</span>
+            <span class="day">10</span>
+          </div>
+          <div class="event-details">
+            <h3>State Qualifier Tournament</h3>
+            <p class="event-location"><i class="fas fa-map-marker-alt"></i> Central High School</p>
+            <p class="event-time"><i class="far fa-clock"></i> 8:00 AM - 6:00 PM</p>
+            <p class="event-description">Qualifying tournament for the Georgia State Championships. All team members participating.</p>
+            <a href="#" class="event-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+    <h2>Contact Us</h2>
+        <p class="section-subheading">Get in touch or join our team</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info animate-on-scroll">
+          <h3>Get In Touch</h3>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>4111 Northside Parkway NW<br>Atlanta, GA 30327</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>debate@nahs.edu</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>(404) 555-1234</p>
+          </div>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="contact-form animate-on-scroll">
+          <form id="contactForm" action="https://example.com/contact" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="joining">I want to join the team</option>
+                <option value="question">I have a question</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section-padding">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>What Our Members Say</h2>
+        <p class="section-subheading">The impact of debate on our students</p>
+      </div>
+      <div class="testimonial-slider animate-on-scroll">
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <p>"Joining the debate team was the best decision I made in high school. It has significantly improved my confidence and critical thinking skills."</p>
+            <div class="testimonial-author">
+              <img src="https://via.placeholder.com/80" alt="John Doe" />
+              <div>
+                <h4>Jordan Smith</h4>
+                <p>Class of 2022, now at Georgetown University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <p>"Debate helped me find my voice and taught me to articulate my ideas clearly. These skills have been invaluable in college and beyond."</p>
+            <div class="testimonial-author">
+              <img src="https://via.placeholder.com/80" alt="Joe Dohn" />
+              <div>
+                <h4>Taylor Rodriguez</h4>
+                <p>Class of 2021, now at Emory University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <p>"The research skills I developed through debate have given me an edge in all my academic pursuits. I'm grateful for this incredible program."</p>
+            <div class="testimonial-author">
+              <img src="https://via.placeholder.com/80" alt="Dohn Joe" />
+              <div>
+                <h4>Aisha Johnson</h4>
+                <p>Class of 2023, now at Stanford University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button id="prevTestimonial" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonial-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button id="nextTestimonial" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="https://via.placeholder.com/50" alt="NAHS Debate Logo" />
+          <h3>NAHS Debate</h3>
+          <p>Fostering excellence in public speaking and critical thinking since 2010.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#debate-formats">Debate Formats</a></li>
+              <li><a href="#members">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Debate Tips</a></li>
+              <li><a href="#">Tournament Calendar</a></li>
+              <li><a href="#">Practice Materials</a></li>
+              <li><a href="#">Alumni Network</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Join the Team</a></li>
+              <li><a href="#">Support Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p id="footerCredits"></p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+</body>
 </html>
