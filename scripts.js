@@ -228,25 +228,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
     
-    // Add a theme toggle feature
-    const themeToggle = document.createElement('div');
-    themeToggle.className = 'theme-toggle';
-    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-    document.body.appendChild(themeToggle);
-    
-    themeToggle.addEventListener('click', function() {
-      document.body.classList.toggle('light-theme');
-      const icon = themeToggle.querySelector('i');
-      
-      if (icon.classList.contains('fa-moon')) {
-        icon.classList.remove('fa-moon');
-        icon.classList.add('fa-sun');
-      } else {
-        icon.classList.remove('fa-sun');
-        icon.classList.add('fa-moon');
-      }
-    });
-    
     // Add smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
